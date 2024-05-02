@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #9eb8e2;
+  }
+  
+  .container {
+    background-color: #f0f9ff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: min(90%, 31.25rem);
+    padding: 3.75rem 0;
+    border-radius: 0.8rem;
+    box-shadow: 0 1.97em 3.75em rgba(1, 87, 185, 0.2);
+  }
+  
+  .timer-display {
+    position: relative;
+    width: 110%;
+    background-color: #5b6c7f;
+    left: -5%;
+    padding: 1em 0;
+    font-family: "Roboto Mono", monospace;
+    color: #f0f9ff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.3em;
+    box-shadow: 0 0.5em 1em rgba(1, 87, 185, 0.2);
+  }
+  
+  .buttons {
+    width: 80%;
+    margin: 3.8rem auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .buttons button {
+    font-size: 1.2rem;
+    background-color: #dbe9ff;
+    color: #3c98ff;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 26px;
+    background: none;
+    color: #fff;
+    padding: 22px 38px;
+    margin-inline: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 15px 5px rgba(146, 148, 248, 0.4);
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(146, 148, 248, 0.4),
+      transparent
+    );
+    transition: all 1s;
+  }
+  
+  .btn:hover:before {
+    left: 100%;
+  }
+  
+  #start-timer {
+    background-color: #3c98ff;
+    color: #f0f9ff;
+  }
+  .btn1 {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 26px;
+    background: none;
+    color: #fff;
+    padding: 22px 38px;
+    margin-inline: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  .btn1:hover {
+    box-shadow: 1px 1px 15px 5px rgba(146, 148, 248, 0.4);
+  }
